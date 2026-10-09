@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f6f5ef" />
+    <meta
+      name="description"
+      content="Get a feel for price impact. Explore how a hypothetical Ethereum swap changes with trade size and pool depth, entirely in your browser."
+    />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'; object-src 'none'"
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>Poolside — Swap impact lab</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript
+      >Poolside needs JavaScript to calculate swap estimates. Enable JavaScript
+      in your browser to use this local simulation.</noscript
+    >
+    <script type="module" src="./src/main.tsx"></script>
+  </body>
+</html>
